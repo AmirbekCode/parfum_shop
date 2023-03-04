@@ -1,0 +1,17 @@
+.ProductList {
+    width: 100%;
+}
+@media screen and (max-width: 1472px) {
+    .ProductList {
+        padding: 0 auto !important;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .ProductList {
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: start;
+        padding: 0;
+        margin: 0;
+    }
+  }

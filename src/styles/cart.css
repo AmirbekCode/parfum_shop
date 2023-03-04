@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+.tdimg {
+    width: 120px;
+}
+
+.ListCart {
+    width: 100%;
+    flex: 8;
+    border: 1px solid #33333326;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.CardCart {
+    border-top: 1px solid #00000012;
+    display: flex;
+    padding: 7px 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgandinfo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.list-top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 40px;
+}
+
+.title_tr {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    color: #62656A;
+
+}
+
+.price_sec_cart {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.company_cart {
+    display: flex;
+    align-items: center;
+}
+
+.product-name-c {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.vashzakas {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    display: flex;
+    align-items: center;
+    color: #212121;
+}
+
+.figm {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center; 
+    color: #757575;
+}
+
+.company_item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-indent: 75.9688px;
+    color: #000000;
+
+}
+
+.qunty {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-indent: 75.9688px;
+    color: #000000;
+
+}
+
+.nothing {
+    margin: 0 auto;
+    font-size: 18px;
+    color: red;
+}
+
+.checkoutList {
+    font-family: 'Inter';
+    width: 300px !important;
+    height: 400px;
+    border-radius: 15px;
+    border: 1px solid #00000017;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px;
+}
+
+.tableCart {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.checkout-btns {
+    width: 278px;
+    height: 44px;
+    border: none;
+    background: rgb(255, 166, 0);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.checkout-btns:hover {
+    border: none;
+    background: rgba(255, 166, 0, 0.705);
+    color: #fff ;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.checkout-btns:active {
+    scale: 0.9;
+}
+
+.list-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.itog {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.price-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totolAmout {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.itogo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.delete span {
+    font-size: 12px;
+    font-family: 'inter';
+    color: #000000b0;
+}
+
+.delete {
+    width: 80px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+    align-items: center;
+    color: #0000004c;
+    padding: 2px 0px;
+    border-radius: 3px;
+    transition: 0.4;
+    user-select: none;
+}
+.delete:hover {
+    background: #79797973;
+    cursor: pointer;
+    color: #000000;
+}
+
+@media only screen and (max-width:768px) {
+
+    .tableCart {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .product-name-c {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .ListCart {
+        width: 100%;
+        flex: 8;
+        border: 1px solid #33333326;
+        border-radius: 5px;
+        padding: 2px;
+    }
+    .company_item {
+    text-indent: 5.9688px;
+    }
+
+    .qunty {
+        font-size: 12px;
+        color: #0000006d;
+    }
+
+    .tdimg {
+        width: 85px;
+    }
+}

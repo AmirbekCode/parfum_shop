@@ -1,0 +1,184 @@
+* {
+    transition: 0.1s;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background: var(--card-bg-01);
+    position: fixed;
+    z-index: 999;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logoimg {
+    width: 50px;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.menu li {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.indicator {
+    background: orange;
+    width: 100%;
+    height: 4px;
+    border-radius: 15px;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.menu li:hover .indicator {
+    opacity: 1;
+}
+
+
+.logo h4 {
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cart-icon,
+.fav-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.cart-icon:hover {
+    background: rgba(111, 111, 111, 0.098);
+}
+
+.fav-icon:hover {
+    background: rgba(111, 111, 111, 0.098);
+}
+
+.cart-icon:hover .ri-shopping-cart-line {
+    color: rgb(0, 0, 0);
+}
+
+
+.korzina {
+    font-family: serif;
+    font-weight: 300 !important;
+    font-size: 17px !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+
+}
+
+
+.ri-menu-line {
+    display: none;
+}
+
+.badge {
+    background: orange;
+    width: 17.68px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    font-size: 12px !important;
+    font-weight: 500;
+}
+
+.nav-icons span:hover i {
+    color: black;
+}
+
+
+.sticky__header {
+    width: 100%;
+    height: 70px;
+    list-style: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #fff;
+}
+/* RESPONSIVE SECTION*/
+@media screen and (max-width: 1440px) {
+    .logoimg {
+        width: 30px;
+    }
+
+    .korzina {
+        font-family: serif;
+        font-weight: 300 !important;
+        font-size: 15px !important;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+
+    .nav-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 0px;
+    }
+}
+
+
+@media screen and (max-width: 666px) {
+    .korzinanone {
+        display: none;
+    }
+
+    .nav-icons {
+        font-size: 20px;
+    }
+
+    .nav-wrapper {
+        padding: 10px 32px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .sticky__header {
+        height: 50px;
+    }
+    .nav-wrapper {
+        padding: 10px 20px;
+    }
+
+    .name-shop {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+
+
+.common-section {
+  background: lineary-gradient(#000,#000 )
+}
+
+.common-section  h1 {
+  color: #fff;
+  font-weight:600;
+}

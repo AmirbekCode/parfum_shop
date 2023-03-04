@@ -1,0 +1,67 @@
+.Shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    width:500px;
+    background: #00000011;
+    border-radius: 5px;
+    align-items: center;
+    padding: 0px 15px;
+    margin: 40px;
+}
+
+.searchbar {
+    width: 100%;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.fa-search {
+    opacity: 0.5;
+}
+
+.searchbar::placeholder {
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 0.405);
+    font-size: 12px;    
+}
+
+
+
+.products-shop {
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+.noneword {
+    text-align:center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+@media only screen  and (max-width:768px){
+    .searchbar {
+        width: 180px;
+    }
+
+    .shopContainer {
+        width: 100%;
+    }
+
+    .search-box {
+        width:227px;
+    }
+
+}

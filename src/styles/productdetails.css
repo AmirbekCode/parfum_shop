@@ -1,0 +1,247 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+.ProductDetails {
+    display: flex;
+    align-items: center;
+    gap: 94px;
+    margin: 30px 0px;
+}
+
+.product-d-img {
+    max-width: 416px;
+}
+
+
+
+.product_img {
+    width: 380px;
+    height: 500px;
+    background: rgba(128, 128, 128, 0.32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.product_img img{
+    width: 90%;
+}
+
+.product__price {
+    display: flex;
+    flex-direction: column;
+    color: orange;
+}
+
+.title_price {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #212121;
+}
+
+.price_item {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+color: orange;
+}
+
+.price_box2 {
+    display: flex;
+    gap: 5px;   
+    align-items: center;
+    gap: 10px;
+}
+
+.sale_price_det {
+    font-size: 12px ;
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.628);
+}
+
+.product_item-img {
+    width: 84px;
+    height: 112px;
+    background: rgba(128, 128, 128, 0.32);
+}
+
+.extra_info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.df-sp {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.df-sp span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #141415;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+
+
+.product_item-img img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.product_items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.product_details {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.add_button_zakas{
+    width: 298.8px;
+    height: 48px;
+    display: flex;
+    gap: 15px;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:orange;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_button_zakas-solid {
+    width: 298.8px;
+    height: 48px;
+    display: flex;
+    gap: 15px;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    background: none;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: orange;
+}
+
+
+.product__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #212121;
+}
+
+.priceresponsive {
+    display: none;
+}
+
+
+@media only screen  and (max-width:425px){
+    .product-d-img {
+        max-width: 250px;
+    }
+
+    .ProductDetails {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        margin: 8px;
+    }
+
+    .Buttons {
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        left: 0;
+        background: #ffffff;
+        width: 100%;
+        padding: 20px 10px;
+        box-shadow: 1px -3px 8px 0px rgba(34, 60, 80, 0.2);
+        z-index: 999;
+        align-items: center;
+        gap: 30px;
+    }
+    .add_button_zakas-solid {
+        display: none;
+    }
+
+    .add_button_zakas {
+        width: 174px;
+        height: 36px;
+        font-size: 12px;
+        gap: 10px;
+        background: orange;
+       
+    }
+
+    .priceresponsive {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price_box2 {
+        display: none;
+    }
+
+    .title_price {
+        display: none;
+    }
+
+    .product_details p{
+        margin-bottom: 100px;
+    }
+
+}

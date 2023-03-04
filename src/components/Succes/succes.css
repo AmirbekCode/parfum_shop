@@ -1,0 +1,96 @@
+.Succes {
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    z-index: 400;
+    background: rgba(253, 108, 5, 0.79);
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    right: 45%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    padding: 25px 8px;
+    display: flex;
+}
+
+.none {
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    z-index: 400;
+    background: rgba(253, 108, 5, 0.79);
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    right: 45%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    padding: 25px 8px;
+    display: none;
+}
+
+.fa-truck-fast {
+    animation: run 4s infinite;
+}
+
+@keyframes run {
+    0%{
+        transform: translateX(-110px);
+    }
+    100%{
+        transform: translateX(110px);
+    }
+}
+
+/* .SuccesActive{
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 25px 0px;
+    z-index: 400;
+    background: rgba(253, 108, 5, 0.79);
+    border-radius: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+.succes_title {
+    font-size: 16px;
+    color: #fff;
+}
+
+.fa-check {
+    font-size:45px;
+    color: green;
+    background: #fff;
+    border-radius:50% ;
+    padding: 15px;
+    animation: scale 3s infinite;
+}
+
+@keyframes scale {
+    0%{
+        scale: 0.9;
+    }
+
+
+    50%{
+        scale: 1.1;
+    }
+    100%{
+        scale: 1;
+    }
+}
