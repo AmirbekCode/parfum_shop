@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9976244a.css",
+    "main.js": "/static/js/main.e2db28b8.js",
+    "static/media/parfum62.png": "/static/media/parfum62.19bf55762d7d565f317c.png",
+    "static/media/parfum42.png": "/static/media/parfum42.d722a9a585a83ed38e42.png",
+    "static/media/parfum83.png": "/static/media/parfum83.46a9083057fd9eff3317.png",
+    "static/media/parfum72.png": "/static/media/parfum72.d056d8a91ed765347925.png",
+    "static/media/parfum81.png": "/static/media/parfum81.0f951af057a9f38ac74c.png",
+    "static/media/parfum31.png": "/static/media/parfum31.7d15ff3935e6451cd06f.png",
+    "static/media/123.png": "/static/media/123.a82c182868792ce6b5af.png",
+    "static/media/parfum71.png": "/static/media/parfum71.c719cb721ba04da9ccf2.png",
+    "static/media/parfum82.png": "/static/media/parfum82.7d2d3b655e8bdc89b1c3.png",
+    "static/media/parfum92.png": "/static/media/parfum92.5e6f4a9eeb3d4c860003.png",
+    "static/media/parfum1.png": "/static/media/parfum1.e703b81692b6d7baf864.png",
+    "static/media/parfum22.png": "/static/media/parfum22.7d9ccda430b7475f5cf9.png",
+    "static/media/parfum13.png": "/static/media/parfum13.678165e2a4967373cefd.png",
+    "static/media/parfum73.png": "/static/media/parfum73.1e1fbc0e261d7c369188.png",
+    "static/media/parfum61.png": "/static/media/parfum61.5570d19c80acc554a8f8.png",
+    "static/media/parfum24.png": "/static/media/parfum24.2c1cb0937bea8f01b5af.png",
+    "static/media/parfum41.png": "/static/media/parfum41.7b7183e8923e16feb161.png",
+    "static/media/parfum32.png": "/static/media/parfum32.09c6730671d57346ffa5.png",
+    "static/media/hero-img.png": "/static/media/hero-img.4cb525f5d6bac4b5af39.png",
+    "static/media/parfum10.png": "/static/media/parfum10.b539824fa2de6a4aa9e4.png",
+    "static/media/parfum51.png": "/static/media/parfum51.dfcbbade0acf5c55390c.png",
+    "static/media/parfum23.png": "/static/media/parfum23.2df19c6963d685d81500.png",
+    "static/media/parfum91.png": "/static/media/parfum91.6b75d306c750937a8455.png",
+    "static/media/parfum0.png": "/static/media/parfum0.ca9b93252e70380e5716.png",
+    "static/media/logotip.png": "/static/media/logotip.4316809bbcbb43596353.png",
+    "static/media/check-mark-emoji.png": "/static/media/check-mark-emoji.b8d6cacc029324e9ea14.png",
+    "index.html": "/index.html",
+    "static/media/Vector.svg": "/static/media/Vector.77d8acba812d96293642bf34eebbd109.svg",
+    "main.9976244a.css.map": "/static/css/main.9976244a.css.map",
+    "main.e2db28b8.js.map": "/static/js/main.e2db28b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9976244a.css",
+    "static/js/main.e2db28b8.js"
+  ]
+}

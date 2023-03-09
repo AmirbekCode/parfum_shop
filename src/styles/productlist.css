@@ -9,7 +9,7 @@
   @media screen and (max-width: 425px) {
     .ProductList {
         display: flex !important;
-        flex-wrap: wrap;
+        flex-wrap: wrap !important;
         justify-content: start;
         padding: 0;
         margin: 0;

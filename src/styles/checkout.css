@@ -1,4 +1,8 @@
-
+.checkOut {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
 
 .Kabinet{
     display: flex;
@@ -8,13 +12,6 @@
     gap: 30px;
     width: 1440px;
     margin: 80px auto;
-}
-
-.kabinetInfo{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 150px;
 }
 
 .kabinetRegiser{
@@ -42,8 +39,24 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 10px;
+    gap: 10px;}
+
+.inputFicPhone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    border: 1px solid #826d6035;
+    border-radius: 4px;
+    padding: 20px 7px;
+    width: 80%;
 }
+
+.ZakazSelects {
+    margin-top: 20px;
+}
+
 .inputFic span{
     font-weight: 500;
     font-size: 13px;
@@ -52,7 +65,10 @@
 }
 .userInfo{
     display: flex;
-
+    border: 1px solid #826d6035;
+    border-radius: 4px;
+    padding: 20px 7px;
+    width: 80%;
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -77,8 +93,8 @@
 .saveButton{
     width: 560px;
     height: 50px;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 15px;
     line-height: 22px;
     color: #FFFFFF;
     background: rgb(255, 115, 0);
@@ -117,7 +133,39 @@
     color: #8f8f8f;
   }
 
+.input::placeholder {
+    font-size: 12px;
+}
 
+.infoContact {
+    font-size: 10px;
+    font-family: 'Inter';
+    width: 100%;
+}
+
+.shortInfo {
+    border: 1px solid #33333351;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 5px;
+}
+
+.shortInfo span {
+    display: flex;
+    gap: 10px;
+}
+
+.check {
+    width: 20px;
+}
+
+.shortInfodes {
+    font-size: 13px;
+    font-family: 'inter';
+    color: #000000b9;
+}
 
 @media only screen and (max-width: 768px) and (min-width: 375px){
     .Kabinet{
@@ -128,6 +176,8 @@
 
     .kabinetRegiser{
         max-width: 375px;
+        padding: 20px 10px;
+
 }
     .registerTitle{
        font-size: 20px;

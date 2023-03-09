@@ -127,7 +127,7 @@
 
     .product-item {
         max-width: 183px;
-        min-height: 360px;
+        max-height: 390px;
         display: flex;
         flex-direction: column;
     }
