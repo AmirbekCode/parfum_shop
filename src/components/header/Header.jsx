@@ -37,7 +37,7 @@ const Header = ({ setProductsData }) => {
         <NavLink to='/'>
         <div className="logo">
           <img src={Logo} className='logoimg'/>
-          <h4 className="name-shop">Zamon SHOP</h4>
+          <h4 className="name-shop">amon SHOP</h4>
         </div>          
         </NavLink>
 
