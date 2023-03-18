@@ -9,7 +9,7 @@ function Footer() {
             <div class="footer-col">
               <h4>Bog'lanish</h4>
               <ul className='paddingzero'>
-                <li className='phonenumber default-li'><i class="fa-solid fa-phone"></i><h2>+998943141770</h2></li>
+                <li className='phonenumber default-li'><i class="fa-solid fa-phone"></i><h2>+998943614656</h2></li>
                 <li className='tg-silka default-li'><i class="fab fa-telegram"></i><a href="https://t.me/AA_6464">Asadbek Abdullayev</a></li>
               </ul>
             </div>
