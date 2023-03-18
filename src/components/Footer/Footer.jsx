@@ -27,7 +27,7 @@ function Footer() {
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Telegram yordam</a></li>
                 <li><a href="#">returns</a></li>
-                <li><a href="#">+998943141770</a></li>
+                <li><a href="#">+998943614656</a></li>
                 <li><a href="#">To'lov usullari</a></li>
               </ul>
             </div>
