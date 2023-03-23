@@ -53,6 +53,8 @@ const Home = () => {
     return (
         <Helmet title="Asosiy">
             <div className="Hero">
+            <IndividualIntervalsExample />
+
             </div>
             <div className='Services'>
             </div>

@@ -36,7 +36,7 @@ function Footer() {
               <div class="social-links">
                 <a href="#"><i class="fab fa-telegram"></i></a>
                 <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://instagram.com/zamonshop"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
               </div>
             </div>
