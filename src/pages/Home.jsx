@@ -59,7 +59,7 @@ const Home = () => {
             <div className='Services'>
             </div>
             <section className='trending-products'>
-                <h2 className="section-title"><span>Распродажа</span>  <img src={Vector} /></h2>
+                <h2 className="section-title"><span>Ko'p sotilganlar</span>  <img src={Vector} /></h2>
                 <ProductList data={trendingProducts} />
             </section>
             <div className="Hero">
