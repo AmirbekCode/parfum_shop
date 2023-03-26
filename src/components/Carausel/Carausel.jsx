@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Card from './RANADAB.png'
+import Card from './RAMADAN.png'
 import Card2 from './img.png'
 
 function IndividualIntervalsExample() {
