@@ -7,6 +7,8 @@
     height: 70px;
     background: var(--card-bg-01);
     position: fixed;
+    display: flex;
+    align-items: center;
     z-index: 999;
 }
 
