@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Card from '../../assets/images/123.png'
+import Card from './RANADAB.png'
 import Card2 from './img.png'
+
 function IndividualIntervalsExample() {
   return (
     <Carousel>
@@ -14,7 +15,7 @@ function IndividualIntervalsExample() {
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src={Card2}
+          src={Card}
           alt="Second slide"
         />
   
