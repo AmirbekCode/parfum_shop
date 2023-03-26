@@ -100,13 +100,31 @@ ul {
 }
 
 @media(max-width: 425px) {
+  .row {
+    display: flex;
+  }
   .footer-col {
-    width: 100%;
+    flex: 1;
+    color: #fff;
   }
 
   .footer {
     padding: 0;
   }
+
+  .social-links {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .container {
+    background: rgba(255, 208, 55, 0.644);
+    color: #fff;
+    padding-top: 25px;
+  }
+
+  
 }
 
 
