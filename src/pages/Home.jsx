@@ -8,12 +8,12 @@ import IndividualIntervalsExample from '../components/Carausel/Carausel';
 import Vector from '../assets/images/Vector.svg'
 import '../styles/home.css'
 import axios from 'axios';
-const baseUrl = "https://api.zamonshop.uz/api/v1"
+const baseUrl = "http://api.zamonshop.uz/api/v1/products"
 const Home = () => {
     const [products , setProducts] = useState([])
     useEffect(() =>{
         axios.get(baseUrl)
-            .then((response) => setProducts(response))
+            .then((response) => console.log(response.data))
     },[])
     const [trendingProducts, setTrendingProducts] = useState([])
     const [wirlessProducts, setWirlessProducts] = useState([])
