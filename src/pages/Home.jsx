@@ -30,31 +30,31 @@ const Home = () => {
         setProductsData(searchedProducts)
     }
 
-    useEffect(() => {
-        const filtrredProducts = products.filter(
-            item => item.category === "chair"
-        );
+    // useEffect(() => {
+    //     const filtrredProducts = products.filter(
+    //         item => item.category === "chair"
+    //     );
 
-        const filtrredTrendingProducts = products.filter(
-            item => item.category === "chair"
-        );
+    //     const filtrredTrendingProducts = products.filter(
+    //         item => item.category === "chair"
+    //     );
 
-        const filtrredWirelessProducts = products.filter(
-            item => item.category === "wireless"
-        );
-        const filtrredMobileProducts = products.filter(
-            item => item.category === "mobile"
-        );
+    //     const filtrredWirelessProducts = products.filter(
+    //         item => item.category === "wireless"
+    //     );
+    //     const filtrredMobileProducts = products.filter(
+    //         item => item.category === "mobile"
+    //     );
 
-        const filtrredSaleProducts = products.filter(
-            item => item.category === "sofa"
-        );
-        setTrendingProducts(filtrredTrendingProducts);
-        setWirlessProducts(filtrredWirelessProducts);
-        setMobileProducts(filtrredMobileProducts);
-        setSaleProducts(filtrredSaleProducts);
+    //     const filtrredSaleProducts = products.filter(
+    //         item => item.category === "sofa"
+    //     );
+    //     setTrendingProducts(filtrredTrendingProducts);
+    //     setWirlessProducts(filtrredWirelessProducts);
+    //     setMobileProducts(filtrredMobileProducts);
+    //     setSaleProducts(filtrredSaleProducts);
 
-    }, []);
+    // }, []);
     return (
         <Helmet title="Asosiy">
             <div className="Hero">
