@@ -10,7 +10,7 @@ import '../styles/home.css'
 import axios from 'axios';
 const baseUrl = "http://api.zamonshop.uz/api/v1/products"
 const Home = () => {
-    const [products , setProducts] = useState([])
+    const [products , setProducts] = useState()
     useEffect(() =>{
         axios.get(baseUrl)
             .then(response => {
