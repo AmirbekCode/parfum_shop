@@ -13,7 +13,7 @@ const Home = () => {
     const [products , setProducts] = useState([])
     useEffect(() =>{
         axios.get(baseUrl)
-            .then((response) => console.log(response))
+            .then((response) => setProducts(response))
     },[])
     const [trendingProducts, setTrendingProducts] = useState([])
     const [wirlessProducts, setWirlessProducts] = useState([])
