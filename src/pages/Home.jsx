@@ -65,7 +65,7 @@ const Home = () => {
             </div>
             <section className='trending-products'>
                 <h2 className="section-title"><span>Ko'p sotilganlar</span>  <img src={Vector} /></h2>
-                <ProductList data={trendingProducts} />
+                <ProductList/>
             </section>
             <div className="Hero">
                 <IndividualIntervalsExample />
