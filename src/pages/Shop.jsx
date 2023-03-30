@@ -11,7 +11,7 @@ const str = null;
 
 const result = typeof str === 'string' ? str.toLowerCase() : '';
 
-console.log(result);
+
 
 
 function Shop() {
