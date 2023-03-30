@@ -11,12 +11,12 @@ import axios from 'axios';
 const baseUrl = "http://api.zamonshop.uz/api/v1/products"
 const Home = () => {
     const [products , setProducts] = useState([])
-    useEffect(() =>{
+    
         axios.get(baseUrl).then(res => {
             console.log(res)
         }).catch(err => {
             console.error(err)})
-    },[])
+
     const [trendingProducts, setTrendingProducts] = useState([])
     const [wirlessProducts, setWirlessProducts] = useState([])
     const [mobileProducts, setMobileProducts] = useState([])
