@@ -5,11 +5,16 @@ import { Link } from 'react-router-dom'
 import Services from '../components/Services/Services'
 import ProductList from '../components/Ul/ProductList'
 import IndividualIntervalsExample from '../components/Carausel/Carausel';
-import products from '../assets/data/products'
 import Vector from '../assets/images/Vector.svg'
 import '../styles/home.css'
+import axios from 'axios';
+const baseUrl = "https://api.zamonshop.uz/api/v1"
 const Home = () => {
-    // const [data , setData] = useState(products)
+    const [products , setProducts] = useState([])
+    useEffect(() =>{
+        axios.get(baseUrl)
+            .then((response) => console.log(response))
+    },[])
     const [trendingProducts, setTrendingProducts] = useState([])
     const [wirlessProducts, setWirlessProducts] = useState([])
     const [mobileProducts, setMobileProducts] = useState([])
