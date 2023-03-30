@@ -8,16 +8,16 @@ import IndividualIntervalsExample from '../components/Carausel/Carausel';
 import Vector from '../assets/images/Vector.svg'
 import '../styles/home.css'
 import axios from 'axios';
-const url = "https://api.zamonshop.uz/api/v1/products"
+const url = "https://api.zamonshop.uz/api/v1/products/"
 const Home = () => {
     const [products , setProducts] = useState([])
     useEffect(() => {
         axios
         .get(url)
         .then(data => {
-            console.log(data);
+            console.log(data.data);
         })
-    },[])
+    },[]);
     const [trendingProducts, setTrendingProducts] = useState([])
     const [wirlessProducts, setWirlessProducts] = useState([])
     const [mobileProducts, setMobileProducts] = useState([])
