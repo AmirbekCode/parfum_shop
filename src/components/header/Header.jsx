@@ -32,7 +32,7 @@ const Header = ({ setProductsData }) => {
   const menuToggle = () => menuRef.current.classList.toggle('active__menu')
   const totalQuantity = useSelector(state => state.cart.totalQuantity)
   return (
-    <header className="header sticky__header">
+    <header className="header">
       <div className="nav-wrapper">
         <NavLink to='/'>
         <div className="logo">

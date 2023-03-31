@@ -9,24 +9,34 @@ import Slideshow from '../components/Slideshow/Slide';
 import { Link } from 'react-router-dom';
 import ProductList from '../components/Ul/ProductList';
 import Vector from '../assets/images/Vector.svg'
-
+import axios from 'axios';
+const URL = "http://api.zamonshop.uz/uploads/"
 
 const ProductDetails = ({ item }) => {
 
+    async function GetProduct() {
+        const response = await axios.get('http://api.zamonshop.uz/api/v1/products')
+        console.log(response.data.products);
+        setData(response.data.products)
+    }
 
+    useEffect(() => {
+        GetProduct()
+    }, [])
+    const [data , setData] = useState([])
 
 
     const { id } = useParams();
     const product = products.find((item) => item.id === id)
-    const { imgUrl, productName, price, description, shortDesc, category } = product
+    const { image, title, price, description, discountPercentage } = products
 
     const dispatch = useDispatch()
     const ToCard = () => {
         dispatch(cartAction.addItem({
             id: product.id,
-            productName: product.productName,
+            productName: product.name,
             price: product.price,
-            image: product.imgUrl,
+            image: product.URL + image,
         }))
         toast.success('Savatga qo`shildi')
     }    
@@ -37,7 +47,7 @@ const ProductDetails = ({ item }) => {
         <section className='ProductDetails'>
             <Slideshow />
             <div className="product_details">
-                <h1 className='product__name'>{productName}</h1>
+                <h1 className='product__name'>{title}</h1>
                 <div className="extra_info">
                     <span className='df-sp'>
                         <span>Компания:</span>
@@ -45,7 +55,7 @@ const ProductDetails = ({ item }) => {
                     </span>
                     <span className='df-sp'>
                         <span>Категория:</span>
-                        <span>{category}</span>
+                        <span>{}</span>
                     </span>
                     <span className='df-sp'>
                         <span>Доставка:</span>
@@ -80,7 +90,7 @@ const ProductDetails = ({ item }) => {
                     </Link>
 
                 </div>
-                <p>{description}</p>
+                <p>{}</p>
             </div> 
         </section>                 
         </div>

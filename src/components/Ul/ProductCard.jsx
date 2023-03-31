@@ -16,7 +16,7 @@ function ProductCard({ item }) {
         }))
         toast.success('Savatga qo`shildi')
     }
-
+const URL = "http://api.zamonshop.uz/uploads/"
 
 
     return (
@@ -24,7 +24,7 @@ function ProductCard({ item }) {
         <div className="product-item">
             <Link path='productDetails' to={`/shop/${item.id}`} >
                 <div className="product-img">
-                    <img src={URL + item.image[0]} />
+                    <img src={URL + item.images} />
                 </div>
             </Link>
             <div className="product__info">
