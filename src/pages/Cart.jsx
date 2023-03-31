@@ -5,6 +5,7 @@ import { cartAction } from "../redux/slices/cartSlice"
 import { useSelector, useDispatch } from "react-redux"
 import { Link } from 'react-router-dom';
 import div from '../assets/images/div.png'
+const URL = "http://api.zamonshop.uz/uploads/"
 function Cart() {
 
     const cartItems = useSelector((state) => state.cart.cartItems);
@@ -12,7 +13,7 @@ function Cart() {
     const [items, setItems] = useState([]);
     return (
         <div>
-            <Helmet title="Cart">
+            <Helmet title="Korzinka">
                 <section className='tableCart'>
                     {
                         cartItems.length === 0 ? <h2 className='nothing'>Sizda hozircha buyurtmalar yo'q</h2> :
@@ -22,7 +23,7 @@ function Cart() {
                                         <div className='CardCart'>
 
                                             <div className='imgandinfo'>
-                                                <img src={item.imgUrl} className="tdimg" />
+                                                <img src={URL + item.images[0]} className="tdimg" />
                                                 <div className="infoscart">
                                                     <span className='product-name-c'>{item.productName}</span>
                                                     <span className='qunty'>{item.quantity} dona</span>
@@ -69,8 +70,7 @@ function Cart() {
                             <Link to="/shop"><button className='checkout-btns'>Dokonga Qaytish</button></Link>
                             <Link to="/checkout"><button className='checkout-btns'>Sotib Olish</button> </Link>
                         </div>
-
-                    </section>
+                        </section>
                 </section>
             </Helmet>
         </div>

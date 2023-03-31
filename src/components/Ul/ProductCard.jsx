@@ -24,7 +24,7 @@ function ProductCard({ item }) {
         <div className="product-item">
             <Link path='productDetails' to={`/shop/${item.id}`} >
                 <div className="product-img">
-                    <img src={item.imgUrl} />
+                    <img src={URL + item.image[0]} />
                 </div>
             </Link>
             <div className="product__info">
