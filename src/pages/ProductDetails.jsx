@@ -27,8 +27,8 @@ const ProductDetails = ({ item }) => {
 
 
     const { id } = useParams();
-    const product = products.find((item) => item.id === id)
-    const { image, title, price, description, discountPercentage } = products
+    const product = data.find((item) => item.id === id)
+    const { image, title, price, description, discountPercentage } = data
 
     const dispatch = useDispatch()
     const ToCard = () => {
@@ -90,7 +90,7 @@ const ProductDetails = ({ item }) => {
                     </Link>
 
                 </div>
-                <p>{}</p>
+                <p>{description}</p>
             </div> 
         </section>                 
         </div>
