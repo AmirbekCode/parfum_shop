@@ -10,25 +10,11 @@ import { Link } from 'react-router-dom';
 import ProductList from '../components/Ul/ProductList';
 import Vector from '../assets/images/Vector.svg'
 import axios from 'axios';
-const URL = "http://api.zamonshop.uz/uploads/"
 
 const ProductDetails = ({ item }) => {
-
-    async function GetProduct() {
-        const response = await axios.get('http://api.zamonshop.uz/api/v1/products')
-        console.log(response.data.products);
-        setData(response.data.products)
-    }
-
-    useEffect(() => {
-        GetProduct()
-    }, [])
-    const [data , setData] = useState([])
-
-
     const { id } = useParams();
-    const product = data.find((item) => item.id === id)
-    const { image, title, price, description, discountPercentage } = data
+    const product = products.find((item) => item.id === id)
+    const { image, title, price, description, discountPercentage } = product
 
     const dispatch = useDispatch()
     const ToCard = () => {
