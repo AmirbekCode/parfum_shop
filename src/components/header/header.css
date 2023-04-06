@@ -185,3 +185,28 @@
         display: none;
     }
 }
+
+.navigation .navsearch {
+    width: 480px;
+    height: 30px;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.navigation .navsearch input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.navigation .navsearch button {
+    width: 50px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

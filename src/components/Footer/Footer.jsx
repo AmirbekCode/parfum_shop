@@ -1,6 +1,27 @@
+import { useState } from 'react';
 import './footer.css'
 
 function Footer() {
+
+  const [uzPay , setUzPay] = useState([
+    {
+      id: 1 ,
+      image: 'https://logobank.uz:8005/media/logos_png/Click-01.png'
+    },
+    {
+      id: 2 ,
+      image: 'https://logobank.uz:8005/media/logos_png/Apelsin-01.png'
+    },
+    {
+      id: 3 ,
+      image: 'https://logobank.uz:8005/media/logos_png/Uzcard-01.png'
+    },
+    {
+      id: 4 ,
+      image: 'https://logobank.uz:8005/media/logos_png/payme-01.png'
+    }
+  ])
+
   return (
     <div className="Footer">
       <footer class="footer">
@@ -38,6 +59,13 @@ function Footer() {
                 <a href="#"><i class="fab fa-youtube"></i></a>
                 <a href="https://instagram.com/zamonshop"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div className="uzPay">
+                {
+                  uzPay.map(item => (
+                    <a href=""><button><img src={item.image} alt="" /></button></a>
+                  ))
+                }
               </div>
             </div>
           </div>

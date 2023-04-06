@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom"
 import { useSelector } from "react-redux";
 import Logo from '../../assets/images/logotip.png'
 import products from "../../assets/data/products"
+import {BiSearchAlt2} from 'react-icons/bi'
 const nav__link = [
   {
     path: "/",
@@ -40,10 +41,12 @@ const Header = ({ setProductsData }) => {
           <h4 className="name-shop">amon SHOP</h4>
         </div>          
         </NavLink>
-
         <div className="navigation " ref={menuRef} onClick={menuToggle}>
+          <div className="navsearch">
+            <input type="text" placeholder="Izlash..."/>
+            <button><BiSearchAlt2/></button>
+          </div>
         </div>
-
         <div className="nav-icons">
           <NavLink to="/">
             <span className="fav-icon">

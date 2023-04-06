@@ -23,6 +23,7 @@ const URL = "http://api.zamonshop.uz/uploads/"
     return (
 
         <div className="product-item">
+            <div className="new">NEW</div>
             <Link path='productDetails' to={`/shop/${item.id}`} >
                 <div className="product-img">
                     <img src={URL + item.images} />

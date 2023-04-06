@@ -49,6 +49,7 @@
     border-radius: 10px;
     border: 1px solid #3333330e;
     box-shadow: none;
+    position: relative;
 }
 
 .product-item:hover {
@@ -58,7 +59,20 @@
 .product-item:hover .product-img img {
     scale: 1.05;
 }
-
+.new {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-size: 12px;
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
 
 
 .product_name {
