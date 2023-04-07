@@ -5,12 +5,17 @@
     width: 120px;
 }
 
+.tableCart {
+    margin-top: 100px;
+}
+
 .ListCart {
     width: 100%;
     flex: 8;
     border: 1px solid #33333326;
     border-radius: 5px;
     padding: 20px;
+    
 }
 
 .CardCart {

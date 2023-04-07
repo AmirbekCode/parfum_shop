@@ -31,10 +31,10 @@ function Shop() {
             <div className="Shop">
                 <CommonSection title="Products" />
                 <section>
-                    <div className="search-box">
+                    {/* <div className="search-box">
                         <input onChange={handleSearch} className="searchbar" placeholder='Nimani qidiryapsiz...'/>
                         <i className='fa-solid fa-search'/>
-                    </div>
+                    </div> */}
                 </section>
                 <section className='shopContainer'>
                     {

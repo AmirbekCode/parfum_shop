@@ -37,8 +37,7 @@ const Header = ({ setProductsData }) => {
       <div className="nav-wrapper">
         <NavLink to='/'>
         <div className="logo">
-          <img src={Logo} className='logoimg'/>
-          <h4 className="name-shop">amon SHOP</h4>
+          <h4 className="name-shop">Zamon_shop</h4>
         </div>          
         </NavLink>
         <div className="navigation " ref={menuRef} onClick={menuToggle}>
@@ -56,13 +55,13 @@ const Header = ({ setProductsData }) => {
             <NavLink to="/shop">
           <span className="fav-icon" to="cart">
               <i class="ri-shopping-bag-line" to={nav__link.path}></i>
-              <span className="korzina korzinanone">Все товары</span>
+              <span className="korzina korzinanone">Barcha tovarlar</span>
           </span>
             </NavLink>
           <NavLink to="/cart">
             <span className="cart-icon">
               <i class="ri-shopping-cart-line"></i>
-              <span className="korzina">Корзина</span>
+              <span className="korzina">Savat</span>
               <span className="badge">{totalQuantity}</span>
             </span>
           </NavLink>
