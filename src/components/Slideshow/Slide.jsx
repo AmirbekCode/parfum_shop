@@ -12,7 +12,7 @@ const URL = "http://api.zamonshop.uz/uploads/"
 
 function Slider() {
 
-    async function GetProduct() {
+    async function GetProduct() {   
         const response = await axios.get('http://api.zamonshop.uz/api/v1/products')
         console.log(response.data.products);
         setData(response.data.products)
@@ -34,7 +34,7 @@ function Slider() {
             <div className="product_img">
                 <img
                     className="d-block"
-                    src={imgUrl}
+                    src=""
                     alt="First slide"
                 />                
             </div>
@@ -44,7 +44,7 @@ function Slider() {
             <div className="product_img">
                 <img
                     className="d-block"
-                    src={imgUrl2}
+                    src=""
                     alt="Second slide"
                 />                
             </div>
@@ -53,7 +53,7 @@ function Slider() {
             <div className="product_img">
                 <img
                     className="d-block"
-                    src={imgUrl3}
+                    src=""
                     alt="Third slide"
                 />                
             </div>

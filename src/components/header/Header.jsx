@@ -72,8 +72,18 @@ const Header = ({ setProductsData }) => {
             </span>
           </div>
         </div>
-
       </div>
+      <ul className="hederCategory">
+        <li>Atrlar</li>
+        <li>Kiyimlar</li>
+        <li>Texnika</li>
+        <li>Telefonlar</li>
+        <li>Salomatlik</li>
+        <li>Bolalar Uchun</li>
+        <li>Kattalar Uchun</li>
+        <li>Maishiy Texnika</li>
+        <li>Avtombilar Uchun</li>
+      </ul>
     </header>
   );
 }
