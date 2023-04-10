@@ -207,7 +207,10 @@
     border-radius: 3px;
     border: none;
     gap: 5px;
-    border: 0.3px solid #bdbdbd;
+    border: 0.3px solid orange;
+    color: orange;
+    font-weight: 600;
+    background-color: white;
 }
 
 .navigation .categoryBtn .categoryIcon {
@@ -370,4 +373,27 @@ header .hederCategory {
 
 .categoryProducts_product ul li:hover {
     color: orange;
+}
+
+@media screen and (min-width: 360px) and (max-width: 414px){
+    .nav-wrapper {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    .navigation {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        position: absolute;
+        top: 50px;
+        background-color: #ffffff;
+    }
+    header .hederCategory {
+        display: none;
+    }
+    .w20 {
+        height: auto;
+    }
 }
